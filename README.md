@@ -30,7 +30,7 @@ A pipe foi publicada com sucesso:<br/>
 Teste Local:<br/>
 Start<br/>
 ![image](https://github.com/dpa0702/DurableFunctionsOrchestration/assets/56276309/80104aa5-4668-46f8-bf93-b5947cbbeb82)<br/>
-Enviando solicitação<br/>
+Enviando requisição<br/>
 ![image](https://github.com/dpa0702/DurableFunctionsOrchestration/assets/56276309/befd4d75-ffe0-4bf9-ad8f-35cbe7d98776)<br/>
 
 <br/>
