@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "DurableFunctionsOrchestration": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7130",
+      "launchBrowser": false
+    }
+  }
+}
