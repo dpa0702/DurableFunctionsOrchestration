@@ -20,7 +20,9 @@ Foram realizadas mais de uma requisição e o resultado você pode encontrar no 
 Obs: Algumas requisições foram rejeitadas pois implementamos uma lógica aleatória na regra de aprovação.
 
 Entrega Parte 2: Link github do projeto --> https://github.com/dpa0702/DurableFunctionsOrchestration/actions
-A pipe está com erro devido a falta de credenciais de ambiente de produção, porém os passos de build estão OK.
+A pipe foi publicada com sucesso:
+![image](https://github.com/dpa0702/DurableFunctionsOrchestration/assets/56276309/b7565b74-ecf7-4cca-9625-6d7421154f5f)
+
 
 
 *Link de apoio --> https://learn.microsoft.com/pt-br/training/modules/create-long-running-serverless-workflow-with-durable-functions/4-exercise-create-a-workflow-using-durable-functions
