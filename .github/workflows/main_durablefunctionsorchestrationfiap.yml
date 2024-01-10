@@ -1,9 +1,9 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/azure/functions-action
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy dotnet core app to Azure Function App - DurableFunctionsOrchestrationDemetrios
+name: Build and deploy dotnet core app to Azure Function App - DurableFunctionsOrchestrationFIAP
 
-on: |+
+on:
   push:
     branches:
       - main
@@ -16,7 +16,6 @@ env:
 jobs:
   build-and-deploy:
     runs-on: windows-latest
-    
     steps:
       - name: 'Checkout GitHub Action'
         uses: actions/checkout@v4
@@ -32,12 +31,11 @@ jobs:
           pushd './${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
           dotnet build --configuration Release --output ./output
           popd
-      
       - name: 'Run Azure Functions Action'
         uses: Azure/functions-action@v1
         id: fa
         with:
-          app-name: 'DurableFunctionsOrchestrationDemetrios'
-          slot-name: 'production'
+          app-name: 'DurableFunctionsOrchestrationFIAP'
+          slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
           publish-profile: ${{ secrets.AzureAppService_PublishProfile_5e17505ebaef4cb1941970c19f833d2b }}
