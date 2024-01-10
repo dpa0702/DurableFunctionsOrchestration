@@ -11,7 +11,7 @@ variables:
   azureSubscription: '650373ba-e56c-48ae-8a41-4ea01af414b9'
 
   # Function app name
-  functionAppName: ''
+  functionAppName: 'functionAppNameDurable'
 
   # Agent VM image name
   vmImageName: 'windows-2019'
