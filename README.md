@@ -17,7 +17,7 @@ Entrega Parte 1: Link github do projeto --> https://github.com/dpa0702/DurableFu
 Projeto executando foi iniciado e a partir dele uma requisição de aprovação foi realizada através do valor da statusQueryGetUri.
 Foram realizadas mais de uma requisição e o resultado você pode encontrar no print abaixo:
 ![image](https://github.com/dpa0702/DurableFunctionsOrchestration/assets/56276309/1b9e2412-d765-45a5-a9b6-f4b8a22798b8)
-
+Obs: Algumas requisições foram rejeitadas pois implementamos uma lógica aleatória na regra de aprovação.
 
 Entrega Parte 2: Link github do projeto --> https://github.com/dpa0702/DurableFunctionsOrchestration/actions
 A pipe está com erro devido a falta de credenciais de ambiente de produção, porém os passos de build estão OK.
