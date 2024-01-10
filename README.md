@@ -19,9 +19,13 @@ Foram realizadas mais de uma requisição e o resultado você pode encontrar no 
 ![image](https://github.com/dpa0702/DurableFunctionsOrchestration/assets/56276309/1b9e2412-d765-45a5-a9b6-f4b8a22798b8)
 Obs: Algumas requisições foram rejeitadas pois implementamos uma lógica aleatória na regra de aprovação.
 
-Entrega Parte 2: Link github do projeto --> https://github.com/dpa0702/DurableFunctionsOrchestration/actions
+Entrega Parte 2: Link github da pipe do projeto --> https://github.com/dpa0702/DurableFunctionsOrchestration/actions
 A pipe foi publicada com sucesso:
 ![image](https://github.com/dpa0702/DurableFunctionsOrchestration/assets/56276309/b7565b74-ecf7-4cca-9625-6d7421154f5f)
+
+Link Azure DevOps da pipe do projeto --> https://dev.azure.com/dpa07020276/app-devops/_build/results?buildId=6&view=results
+A pipe foi publicada com sucesso:
+![image](https://github.com/dpa0702/DurableFunctionsOrchestration/assets/56276309/57764f2f-3676-4b8a-9346-d51a96540f96)
 
 
 
