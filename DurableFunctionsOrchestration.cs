@@ -30,17 +30,17 @@ namespace Company.Function
         }
 
         [FunctionName(nameof(Approval))]
-        public static string Approval([ActivityTrigger] string name, ILogger log)
+        public static string Approval([ActivityTrigger] string resultado, ILogger log)
         {
-            log.LogInformation("Seu pedido foi", name);
-            return $"Seu pedido foi {name}!";
+            log.LogInformation("Seu pedido foi", resultado);
+            return $"Seu pedido foi {resultado}!";
         }
 
         [FunctionName(nameof(NotApproval))]
-        public static string NotApproval([ActivityTrigger] string name, ILogger log)
+        public static string NotApproval([ActivityTrigger] string resultado, ILogger log)
         {
-            log.LogInformation("Seu pedido foi", name);
-            return $"Seu pedido foi {name}!";
+            log.LogInformation("Seu pedido foi", resultado);
+            return $"Seu pedido foi {resultado}!";
         }
 
         [FunctionName(nameof(RandomStatus))]
